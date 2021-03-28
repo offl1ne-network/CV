@@ -1,79 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="text"> <!--Text, der im Internet unter der Seite steht (kleine Info)-->
-    <title>Alens' site</title>
-  </head>
-  <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img src="Profile Pic offl1ne.jpg" alt="My Profile picture" width="200px">
-        </td>
-        <td>
-          <h1>Alen Misaljevic</h1>
-          <p><em>Student in a <strong><a href="https://htl-anichstrasse.tirol/" target="_blank">School</a></strong></em></p> <!--p=Absatz und margin; strong=fett; em=kursiv ; <a href> ->Link im Text/Bild, führt irgendwo hin; target="_blank" macht neuen Tab-->
-          <p>I'm learning Web Development</p>
-          <a href="contactMe.html">Contact me</a>
-           <hr size="3" noshade>
-        </td>
-      </tr>
-    </table>
-    <h3>Education</h3>
-    <ul>
-      <li>Volksschule</li>
-        <ul>
-          <li>4 Jahre hingegangen</li>
-        </ul>
-      <li>Gymnasium</li>
-        <ul>
-          <li>Auch 4 Jahre hingegangen</li>
-        </ul>
-      <li>HTL</li>
-        <ul>
-          <li>Gehe zurzeit hin cap</li>
-        </ul>
-    </ul>
-    <a href="hobbies.html">My hobbies</a>
-    <br>
-    <a href="job.html">Where I currently work</a>
-    <hr size="3" noshade>
-    <table>
-      <thead>
-          <tr>
-            <th>Years</th>
-            <th>Work</th>
-          </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1997-2021</td>
-          <td>Living on world</td>
-        </tr>
-          
-        <tr>
-          <td>1997</td>
-          <td>Born</td>
-        </tr>
-      </tbody>
-      <tfoot>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/styles2.css"> <!--Incorporate CSS-->
+  <link rel="icon" href="favicon.ico"> <!--Incorporate icon on the internet page-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sacramento&family=Train+One&display=swap" rel="stylesheet">
+  <title>Alen - Not so professional programmer</title>
+</head>
 
-      </tfoot>
+<body>
 
-    </table>
-    <hr size="3" noshade>
-    
-    <h3>Skills</h3>
-    
-      <table cellspacing="10">
-        <tr>
-          <td>Mathematics ★★★★★</td>
-        </tr>
-        <tr>
-          <td>Programming ★★★★★</td>
-        </tr>
-      </table>
-      <hr size="3" noshade>
-  </body>
+  <div class="top-container">
+    <img class="upper-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Alen.</h1>
+    <p class="headerInfo">I've been <span class="better">better</span> at programming.</p>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="images/Profile Pic offl1ne.jpg" alt="profilePicture">
+      <h2>Hello.</h2>
+      <p class="introduction">This is my first ever personal site, I hope you like it and hopefully we can get in touch with eachother soon</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skills-pic" src="images/coding.png" alt="computerPic">
+        <h3><strong><em>Mathematics</em></strong></h3>
+        <p class="skillDesc">If you ever need some Math help contact me. I love maths and also like coding a lot, that's why I bought this course in the first place to learn coding.</p>
+      </div>
+      <div class="skill-row">
+        <img class="chilli" src="images/chillies.png" alt="chilliPic">
+        <h3><strong><em>Food</em></strong></h3>
+        <p class="foodDesc">I love food just as much as you do. However please note that any violation of the food Terms of Service will result in an instant termination of your food ressources</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2 class="contactMeForm">Get In Touch</h2>
+      <h3 class="contactMeForm">My phone number: +43 1234 56789</h3>
+      <p class="contactMeForm">My address: Coding Street 37</p>
+      <a class="btn" href="mailto:alen.misaljevic.33@hotmail.com">CONTACT ME</a><br>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://github.com/offl1ne-network/CV" target="_blank">Github</a>
+    <a class="footer-link" href="https://twitter.com/offl1ne__" target="_blank">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/" target="_blank">Website</a>
+    <p class="copyright">© 2021 Alen Misaljevic @ Misa Holdings Ltd.</p>
+  </div>
+
+</body>
+
 </html>
